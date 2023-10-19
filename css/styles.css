@@ -1,3 +1,5 @@
+/*--AJUSTES GENERALES--*/
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +8,36 @@
 }
 
 :root {
-    --colorFondo: white;
+    --colorFondo: rgb(232, 49, 49);
     --color1: #ffffff;
     --color2: #7d7d7d;
     --color3: #000000;
-    --color4: #121212;
-    --color5: #141414;
-    --color6: #757575;
+   
 }
+
+/*--FINAL DE AJUSTES GENERALES--*/
+
+/*--COMIENZO DEL ENCABEZADO--*/
+
+header{
+background-color: var(--colorFondo);
+max-width: 100%;
+height: 4em;
+}
+
+header li{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+header li a{
+color: var(--color1);
+text-decoration: none;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 1em;
+}
+
+
+/*--FINAL DEL ENCABEZADO--*/
