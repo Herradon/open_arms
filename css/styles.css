@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+:root {
+    --colorFondo: white;
+    --color1: #ffffff;
+    --color2: #7d7d7d;
+    --color3: #000000;
+    --color4: #121212;
+    --color5: #141414;
+    --color6: #757575;
+}
