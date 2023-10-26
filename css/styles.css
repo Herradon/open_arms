@@ -55,8 +55,8 @@ background-repeat: no-repeat;
 
 
 .primercont h1{
-margin-left: 7em;
-margin-top: 5em;
+margin-left: 5em;
+margin-top: 1em;
 font-size: 3em;
 width: 10em;
 color: var(--color1);
@@ -85,4 +85,43 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+#cajas {
+display: flex;
+justify-content: center;
+}
+
+.caja1 {
+margin-right: 1em;
+margin-left: 1em;
+margin-top: 1em;
+height: 23em;
+background-color: var(--color2);
+}
+
+.caja1 p{
+width: 20em;
+}
+
+.caja2 {
+margin-right: 1em;
+margin-left: 1em;
+margin-top: 1em;
+height: 23em;
+background-color: var(--color2);
+}
+
+.caja2 p{
+    width: 20em;
+    }
+
+.caja3 {
+    margin-right: 1em; 
+    margin-left: 1em;
+    height: 23em;
+    background-color: var(--color2);
+}
+
+.caja3 p{
+    width: 10em;
+    }
 
