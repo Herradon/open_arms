@@ -1,25 +1,17 @@
 /*-----POP UP 1-----*/
 
-// Get the popup and button elements
-const popup = document.getElementById("popup");
-const popupButton = document.getElementById("popupButton");
-const closePopup = document.getElementById("closePopup");
+document.addEventListener("DOMContentLoaded", function () {
+    const mostrarPopupBtn = document.getElementById("mostrar-popup1");
+    const cerrarPopupBtn = document.getElementById("cerrar-popup1");
+    const miPopup1 = document.getElementById("mi-popup1");
 
-// Show the popup when the button is clicked
-popupButton.addEventListener("click", () => {
-    popup.style.display = "block";
-});
+    mostrarPopupBtn.addEventListener("click", function () {
+        miPopup1.style.display = "flex";
+    });
 
-// Close the popup when the close button is clicked
-closePopup.addEventListener("click", () => {
-    popup.style.display = "none";
-});
-
-// Close the popup when the user clicks outside of it
-window.addEventListener("click", (event) => {
-    if (event.target === popup) {
-        popup.style.display = "none";
-    }
+    cerrarPopupBtn.addEventListener("click", function () {
+        miPopup1.style.display = "none";
+    });
 });
 
 /*-----FINAL DE POP UP 1-----*/
