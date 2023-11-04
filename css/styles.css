@@ -17,10 +17,28 @@
 
 /*--FINAL DE AJUSTES GENERALES--*/  
 
-/*--COMIENZO DEL ENCABEZADO--*/
+/*--COMIENZO DEL HEADER--*/
 
+header{
+max-width: 100%;
+}
 
+header ul {
+max-width: 100%;
+height: 3em;
+align-content: center;
+background-color: var(--colorFondo);
+}
 
+header ul li {
+color:var(--color1);
+}
+
+header img{
+width: 100%;
+}
+
+/*--FINAL DEL HEADER--*/
 
 #bloques{
 display: flex;
