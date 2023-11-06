@@ -21,6 +21,28 @@
 
 header{
 max-width: 100%;
+height: 100vh;
+background-image: url(https://www.openarms.es/uploads/home/Caja_med.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#texto {
+background-color: var(--color3);
+width: 100%;
+height: 3em;
+position: fixed;
+}
+
+#texto p {
+text-decoration: underline;
+}
+
+header p {
+padding-top: 0.5em;
+text-align: center;
+color: var(--color1);
 }
 
 header ul {
@@ -28,8 +50,25 @@ width: 100%;
 height: 3em;
 align-content: center;
 background-color: var(--colorFondo);
-position: fixed;
+
 }
+
+#textohead {
+padding-top: 12em;
+padding-left: 10em;
+width: 35em;
+}
+
+#textohead h1{
+color: var(--color1);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar {
+background: none;
+}
+
+
 
 .nav-link {
 color: var(--color1);
