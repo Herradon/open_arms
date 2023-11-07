@@ -84,7 +84,19 @@ width: 100%;
 
 /*--FINAL DEL HEADER--*/
 
-/*--FINAL DEL TEXTO SOMOS--*/
+/*--COMIENZO DE QUE SOMOS--*/
+
+#oden {
+justify-content: center;
+}
+
+.card {
+width: 18em;
+}
+
+
+
+/*--FINAL DE QUE SOMOS--*/
 
 /*--COMIENZO DE LAS COLUMNAS--*/
 
