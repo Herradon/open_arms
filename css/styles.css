@@ -64,10 +64,9 @@ color: var(--color1);
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.navbar {
-background: none;
+.figure {
+max-width: 2em;
 }
-
 
 
 .nav-link {
@@ -90,7 +89,9 @@ width: 100%;
 display: flex;
 width: 100%;
 height: 60em;
+justify-content: space-around;
 align-items: center;
+
 }
 
 .card {
@@ -98,7 +99,22 @@ height: 40em;
 
 }
 
+#comentsecond {
+    display: flex;
+    width: 100%;
+    height: 60em;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    
+    .card {
+    height: 40em;
+    
+    }
+
 /*--FINAL DE QUE SOMOS--*/
+
 
 /*--COMIENZO DE LAS COLUMNAS--*/
 
@@ -116,7 +132,7 @@ margin-top: 1em;
 margin-bottom: 1em;
 }
 
-/*--FINAL DE LAS COLUMNAS--*/
+/*--FINAL DE LAS COLUMNAS--*/   
 
 /*--COMIENZO DE LA SECCIÓN BOTÓN--*/
 
