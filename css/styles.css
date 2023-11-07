@@ -94,10 +94,6 @@ align-items: center;
 
 }
 
-.card {
-height: 40em;
-
-}
 
 #comentsecond {
     display: flex;
@@ -105,13 +101,9 @@ height: 40em;
     height: 60em;
     justify-content: space-around;
     align-items: center;
-    
     }
     
-    .card {
-    height: 40em;
-    
-    }
+ 
 
 /*--FINAL DE QUE SOMOS--*/
 
