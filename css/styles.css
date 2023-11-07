@@ -84,19 +84,6 @@ width: 100%;
 
 /*--FINAL DEL HEADER--*/
 
-/*--COMIENZO DEL TEXTO SOMOS--*/
-
-#somos {
-background-color: var(--color2);
-width: 100%;
-height: 15em;
-justify-content: center;
-}
-
-.text-center{
-padding-top: 0.5em;
-}
-
 /*--FINAL DEL TEXTO SOMOS--*/
 
 /*--COMIENZO DE LAS COLUMNAS--*/
