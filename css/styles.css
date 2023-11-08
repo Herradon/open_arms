@@ -19,10 +19,6 @@
 
 /*--COMIENZO DEL HEADER--*/
 
-header{ 
-
-}
-
 
 #texto {
 background-color: var(--color3);
@@ -49,17 +45,6 @@ background-color: var(--colorFondo);
 
 }
 
-#textohead {
-padding-top: 12em;
-padding-left: 10em;
-width: 35em;
-}
-
-#textohead h1{
-color: var(--color1);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 .figure {
 max-width: 2em;
 }
@@ -78,6 +63,29 @@ width: 100%;
 }
 
 /*--FINAL DEL HEADER--*/
+
+/*--COMIENZO DE IMAGEN CABEZERA--*/
+
+#imagenfondo {
+display: flex;
+}
+
+#imagenfondo img {
+max-width: 100vh;
+}
+
+figcaption {
+padding-top: 12em;
+padding-left: 10em;
+width: 35em;
+}
+    
+figcaption h1{
+color: var(--color1);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*--FINAL DE IMAGEN CABEZERA--*/
 
 /*--COMIENZO DE QUE SOMOS--*/
 
