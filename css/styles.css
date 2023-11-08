@@ -19,14 +19,10 @@
 
 /*--COMIENZO DEL HEADER--*/
 
-header{
-max-width: 100%;
-height: 100vh;
-background-image: url(https://www.openarms.es/uploads/home/Caja_med.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+header{ 
 
 }
+
 
 #texto {
 background-color: var(--color3);
