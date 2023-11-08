@@ -66,24 +66,7 @@ width: 100%;
 
 /*--COMIENZO DE IMAGEN CABEZERA--*/
 
-#imagenfondo {
-display: flex;
-}
-
-#imagenfondo img {
-max-width: 100vh;
-}
-
-figcaption {
-padding-top: 12em;
-padding-left: 10em;
-width: 35em;
-}
     
-figcaption h1{
-color: var(--color1);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 /*--FINAL DE IMAGEN CABEZERA--*/
 
