@@ -39,16 +39,14 @@ color: var(--color1);
 
 header ul {
 width: 100%;
-height: 3em;
+height: 7em;
 align-content: center;
 background-color: var(--colorFondo);
-
 }
 
 .figure {
 max-width: 2em;
 }
-
 
 .nav-link {
 color: var(--color1);
@@ -66,7 +64,13 @@ width: 100%;
 
 /*--COMIENZO DE IMAGEN CABEZERA--*/
 
-    
+#imagenfondo {
+max-width: 100%;
+}
+
+#imagenfondo img {
+width: 100%;
+}
 
 /*--FINAL DE IMAGEN CABEZERA--*/
 
