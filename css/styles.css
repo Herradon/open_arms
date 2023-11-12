@@ -80,12 +80,6 @@ height: 100%;
 
 /*--TEXTO INICIO SOMOS--*/
 
-#conjuntosomos{
-margin-top: 1em;
-width: 70%;
-margin-left: 1em;
-}
-
 
 #textojunt1{
 justify-content: center;
@@ -157,8 +151,6 @@ color: var(--colorFondo);
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 margin-bottom: 0.5em;
 }
-
-
 
 /*--TEXTO FINAL SOMOS--*/
 
@@ -254,55 +246,31 @@ margin-top: 1em;
 margin-bottom: 1em;
 }
 
-/*--FINAL DE LAS COLUMNAS--*/   
+/*--FINAL DE LAS COLUMNAS--*/
+
+/*--COMIENZO DE SUSCRIPCIÓN--*/
+
+.message {
+    margin-top: 1em;
+    width: 100%;
+    background-color:var(--colorFondo);
+    }
+
+/*--FINAL DE SUSCRIPCIÓN--*/
 
 /*--COMIENZO DE LA SECCIÓN BOTÓN--*/
 
-.buttonimg {
-max-width: 30%;
-margin-bottom: 1em;
-}
-    
-.popup {
-display: none;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-justify-content: center;
-align-items: center;
-z-index: 1000;
-}
-    
-.popup-contenido {
-max-width: 100%;
-height: 100%;
-display: flex;
-background-color: #fff;
-padding: 20px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-    
-#mostrar-popup1 {
-color:var(--color3);
-width: 50%;
-height: 3em;
-border-radius: 1em;
-border: none;
-}
-    
-#cerrar-popup1 {
-margin-top: 2em;
-margin-top: 10px;
-color:var(--color3);
-border: none;
-padding: 10px 20px;
-border-radius: 5px;
-cursor: pointer;
+#buttonimg {
+background-color: var(--color2);    
+text-align: center;
 }
 
+.textocard {
+width: 100%;
+height: 10em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+}
     
 /*--FINAL DE LA SECCIÓN BOTÓN--*/
 
