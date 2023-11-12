@@ -252,9 +252,16 @@ margin-bottom: 1em;
 
 .message {
     margin-top: 1em;
-    width: 100%;
+    width:100%;
     background-color:var(--colorFondo);
+    text-align: center;
+    color: var(--color1);
+    display: flex;
+  justify-content: center;
     }
+
+
+
 
 /*--FINAL DE SUSCRIPCIÓN--*/
 
@@ -265,12 +272,6 @@ background-color: var(--color2);
 text-align: center;
 }
 
-.textocard {
-width: 100%;
-height: 10em;
-padding-top: 0.5em;
-padding-bottom: 0.5em;
-}
     
 /*--FINAL DE LA SECCIÓN BOTÓN--*/
 
