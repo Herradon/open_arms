@@ -15,6 +15,8 @@
    
 }
 
+/*------------COMIENZO DE PÁGINA QUIENES SOMOS--------------*/
+
 /*--FINAL DE AJUSTES GENERALES--*/  
 
 /*--COMIENZO DEL HEADER--*/
@@ -100,6 +102,10 @@ width: 30em;
 justify-content: center;
 }
 
+.solotext p {
+width: 100%;
+}
+
 
 #textojunt2{
 justify-content: center;
@@ -160,15 +166,16 @@ margin-bottom: 0.5em;
 padding-top: 2em;
 display: flex;
 width: 100%;
-height: 40em;
+height: 50em;
 justify-content: space-around;
 align-items: center;
+
 }
 
 #contentstyle .info {
 background-color: var(--color2); 
 border-radius: 2%;  
-height: 35em;
+height: 40em;
 }
 
 #contentstyle .info img {
@@ -184,7 +191,7 @@ margin-bottom: 1em;
 
 #contentstyle .info p {
     padding-left: 1em;
-    width: 21em;
+    width: 30em;
     margin-top: 0.5em;
     margin-bottom: 1em;
     }
@@ -207,7 +214,7 @@ align-items: center;
 #contentsecond .info {
 background-color: var(--color2);
 border-radius: 2%; 
-height: 37em;    
+height: 40em;    
 }
 
 #contentsecond .info h2 {
@@ -219,7 +226,7 @@ margin-bottom: 1em;
     
 #contentsecond .info p {
 padding-left: 1em;
-width: 21em;
+width: 30em;
 margin-top: 0.5em;
 margin-bottom: 1em;
 }
@@ -306,3 +313,116 @@ padding-bottom: 0.5em;
 }
 
 /*--FINAL DEL FOOTER--*/
+
+/*-------------FINAL DE PÁGINA QUIENES SOMOS----------------*/
+
+/*-----------------COMIENZO DE PÁGINA AYUDAR----------------*/
+
+/*--COMIENZO DE IMAGEN DE CABEZERA--*/
+
+#contenedor2 {
+width: 100%;
+text-align: center;
+}
+
+#contenedor2 img {
+width: 100%;
+height: 30em;
+}
+
+/*--FINAL DE IMAGEN DE CABEZERA--*/
+
+/*--COMIENZO DE FORMULARIO--*/
+
+
+
+/*--FINAL DE FORMULARIO--*/
+
+#imput-form {
+text-align: center;
+}
+
+.text-help {
+justify-content: center;
+margin-top: 1em;
+margin-bottom: 1.5em;
+}
+
+.text-help h1 {
+width: 100%;
+}
+
+.text-help p {
+width: 100%;
+}
+
+#text-info {
+display: flex;
+}
+
+#text-info {
+background-color: var(--color2);
+}
+
+#text-info .transferencia {
+padding-left: 1em;
+padding-right: 0.5em;
+}
+
+#text-info .bizum {
+padding-left: 0.5em;
+padding-right: 1em;
+}
+
+#text-across {
+text-align: center;
+}
+
+#text-across .numbers {
+display: flex;
+justify-content: center;
+}
+
+#text-across .numbers h1 {
+background-color: var(--color1);
+color: var(--colorFondo);
+margin-left: 0.5em;
+margin-right: 0%;
+width: 3%;
+border-radius: 50%;
+}
+
+#text-across .numbers h1:hover {
+background-color: var(--colorFondo);
+color: var(--color1);
+width: 3%;
+border-radius: 100%;
+}
+.ayuda {
+margin-top: 1em;
+text-align: center;
+}
+
+.ayuda h2 {
+margin-bottom: 0.5em;
+}
+
+.ayuda h3 {
+    margin-bottom: 0.5em;
+}
+
+.ayuda button {
+margin-bottom: 1em;
+background-color: var(--color1);
+color: var(--colorFondo);
+border-radius: 10%;
+border: none;
+}
+
+.ayuda button:hover {
+color: var(--color1);
+background-color: var(--colorFondo);
+}
+
+
+
