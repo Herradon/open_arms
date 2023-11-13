@@ -378,26 +378,6 @@ padding-right: 1em;
 text-align: center;
 }
 
-#text-across .numbers {
-display: flex;
-justify-content: center;
-}
-
-#text-across .numbers h1 {
-background-color: var(--color1);
-color: var(--colorFondo);
-margin-left: 0.5em;
-margin-right: 0%;
-width: 3%;
-border-radius: 50%;
-}
-
-#text-across .numbers h1:hover {
-background-color: var(--colorFondo);
-color: var(--color1);
-width: 3%;
-border-radius: 100%;
-}
 .ayuda {
 margin-top: 1em;
 text-align: center;
@@ -424,5 +404,30 @@ color: var(--color1);
 background-color: var(--colorFondo);
 }
 
+.select-one {
+display: flex;
+justify-content: center;
+}
+
+.select-one h4{
+width: 7em;
+height: 5em;
+padding-top: 2em;
+padding-bottom: 2em;
+margin-left: 1em;
+margin-right: 1em;
+background-color: var(--color1);
+color: var(--colorFondo);
+}
+
+.select-one h4:hover{
+color: var(--color1);
+background-color: var(--colorFondo);
+}
+
+.button-dona button{
+background-color: var(--colorFondo);
+
+}
 
 
