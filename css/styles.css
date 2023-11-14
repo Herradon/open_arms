@@ -191,7 +191,7 @@ margin-bottom: 1em;
 
 #contentstyle .info p {
     padding-left: 1em;
-    width: 30em;
+    width: 20em;
     margin-top: 0.5em;
     margin-bottom: 1em;
     }
@@ -226,7 +226,7 @@ margin-bottom: 1em;
     
 #contentsecond .info p {
 padding-left: 1em;
-width: 30em;
+width: 20em;
 margin-top: 0.5em;
 margin-bottom: 1em;
 }
@@ -429,5 +429,7 @@ background-color: var(--colorFondo);
 background-color: var(--colorFondo);
 
 }
+
+
 
 
