@@ -332,12 +332,6 @@ height: 30em;
 
 /*--FINAL DE IMAGEN DE CABEZERA--*/
 
-/*--COMIENZO DE FORMULARIO--*/
-
-
-
-/*--FINAL DE FORMULARIO--*/
-
 #imput-form {
 text-align: center;
 }
@@ -389,6 +383,14 @@ margin-bottom: 0.5em;
 
 .ayuda h3 {
     margin-bottom: 0.5em;
+}
+
+.formcomp {
+text-align: center;
+}
+
+.formcomp .row {
+justify-content: center ;
 }
 
 .ayuda button {
