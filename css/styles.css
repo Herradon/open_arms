@@ -392,10 +392,8 @@ width: 100%;
 
 
 .formcomp .col-md-6 {
-width: 60%;
+flex: 20%;
 }
-
-
 
 
 .formcomp .row {
