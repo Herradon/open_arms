@@ -375,7 +375,6 @@ text-align: center;
 
 .ayuda {
 margin-top: 1em;
-text-align: center;
 }
 
 .ayuda h2 {
@@ -388,7 +387,16 @@ margin-bottom: 0.5em;
 
 .formcomp {
 text-align: center;
+width: 100%;
 }
+
+
+.formcomp .col-md-6 {
+width: 60%;
+}
+
+
+
 
 .formcomp .row {
 justify-content: center ;
