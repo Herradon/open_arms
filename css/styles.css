@@ -183,15 +183,19 @@ height: 40em;
 border-radius: 2%;
 }
 
-#contentstyle .info h2 {
-padding-left: 0.5em;
-width: 12em;
-margin-top: 0.5em;
+.body {
+padding-right: 1em;
+padding-left: 1em;
+}
+
+.body h2 {
 margin-bottom: 1em;
+margin-top: 1em;
 }
 
 #contentstyle .info p {
     padding-left: 1em;
+    padding-right: 1em;
     width: 20em;
     margin-top: 0.5em;
     margin-bottom: 1em;
