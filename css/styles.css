@@ -15,18 +15,12 @@
    
 }
 
+/*------------COMIENZO DE PÁGINA QUIENES SOMOS--------------*/
+
 /*--FINAL DE AJUSTES GENERALES--*/  
 
 /*--COMIENZO DEL HEADER--*/
 
-header{
-max-width: 100%;
-height: 100vh;
-background-image: url(https://www.openarms.es/uploads/home/Caja_med.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
-}
 
 #texto {
 background-color: var(--color3);
@@ -45,28 +39,14 @@ text-align: center;
 color: var(--color1);
 }
 
-header ul {
+#texto ul {
 width: 100%;
-height: 3em;
+height: 4em;
 align-content: center;
 background-color: var(--colorFondo);
-
+justify-content: space-around;
 }
 
-#textohead {
-padding-top: 12em;
-padding-left: 10em;
-width: 35em;
-}
-
-#textohead h1{
-color: var(--color1);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.figure {
-max-width: 2em;
-}
 
 
 .nav-link {
@@ -83,37 +63,179 @@ width: 100%;
 
 /*--FINAL DEL HEADER--*/
 
-/*--COMIENZO DE QUE SOMOS--*/
+/*--COMIENZO DE IMAGEN CABEZERA--*/
+
+#contenedor {
+width: 100%;
+text-align: center;
+}
+
+#contenedor img {
+width: 100%;
+height: 100%;
+
+}
+
+
+
+
+/*--FINAL DE IMAGEN CABEZERA--*/
+
+/*--TEXTO INICIO SOMOS--*/
+
+
+#textojunt1{
+justify-content: center;
+padding-top:0.5em;
+width: 100%;
+height: 21em;
+display: flex;
+margin-top: 1em;
+}
+
+.imagentext1 {
+display: flex;
+
+}
+
+.imagentext1 figure {
+width: 30em;
+justify-content: center;
+}
+
+.solotext p {
+width: 100%;
+}
+
+
+#textojunt2{
+justify-content: center;
+padding-top:0.5em;
+width: 100%;
+height: 21em;
+display: flex;
+margin-top: 1em;
+}
+    
+.imagentext1 {
+display: flex;
+}
+    
+.imagentext1 figure {
+width: 30em;
+justify-content: center;
+}
+
+
+#textojunt3{
+justify-content: center;
+padding-top:0.5em;
+width: 100%;
+height: 21em;
+display: flex;
+margin-top: 1em;
+}
+        
+.imagentext1 {
+display: flex;
+}
+        
+.imagentext1 figure {
+width: 30em;
+justify-content: center;
+}
+        
+.solotext {
+width: 50em;
+display: flex;
+flex-direction: column;
+margin-left: 2em;
+margin-right: 2em;
+}
+
+.solotext h1{
+color: var(--colorFondo);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 0.5em;
+}
+
+/*--TEXTO FINAL SOMOS--*/
+
+/*--COMIENZO CARD SOMOS--*/
 
 #contentstyle {
+padding-top: 2em;
 display: flex;
 width: 100%;
-height: 60em;
+height: 50em;
 justify-content: space-around;
 align-items: center;
 
 }
 
-.card {
+#contentstyle .info {
+background-color: var(--color2); 
+border-radius: 2%;  
 height: 40em;
-
 }
 
-#comentsecond {
-    display: flex;
-    width: 100%;
-    height: 60em;
-    justify-content: space-around;
-    align-items: center;
-    
-    }
-    
-    .card {
-    height: 40em;
-    
+#contentstyle .info img {
+border-radius: 2%;
+}
+
+#contentstyle .info h2 {
+padding-left: 0.5em;
+width: 12em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+
+#contentstyle .info p {
+    padding-left: 1em;
+    width: 20em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     }
 
-/*--FINAL DE QUE SOMOS--*/
+
+
+
+#contentsecond {
+display: flex;
+width: 100%;
+height: 60em;
+justify-content: space-around;
+align-items: center;
+}
+
+#contentsecond .info img {
+    border-radius: 2%;
+}
+
+#contentsecond .info {
+background-color: var(--color2);
+border-radius: 2%; 
+height: 40em;    
+}
+
+#contentsecond .info h2 {
+padding-left: 0.5em;
+width: 12em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+    
+#contentsecond .info p {
+padding-left: 1em;
+width: 20em;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+
+
+
+    
+/*--FINAL CARD SOMOS--*/
 
 
 /*--COMIENZO DE LAS COLUMNAS--*/
@@ -132,56 +254,46 @@ margin-top: 1em;
 margin-bottom: 1em;
 }
 
-/*--FINAL DE LAS COLUMNAS--*/   
+/*--FINAL DE LAS COLUMNAS--*/
+
+/*--COMIENZO DE SUSCRIPCIÓN--*/
+
+.message {
+margin-top: 1em;
+width:100%;
+height: 20em;
+background-color:var(--colorFondo);
+text-align: center;
+color: var(--color1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.textomens {
+margin-left: 3em;
+margin-right: 3em;
+}
+
+.click {
+text-align: center;
+}
+
+
+
+/*--FINAL DE SUSCRIPCIÓN--*/
 
 /*--COMIENZO DE LA SECCIÓN BOTÓN--*/
 
-.buttonimg {
-max-width: 30%;
-margin-bottom: 1em;
-}
-    
-.popup {
-display: none;
-position: fixed;
-top: 0;
-left: 0;
+#buttonimg {
 width: 100%;
-height: 100%;
-justify-content: center;
-align-items: center;
-z-index: 1000;
-}
-    
-.popup-contenido {
-max-width: 100%;
-height: 100%;
-display: flex;
-background-color: #fff;
-padding: 20px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-    
-#mostrar-popup1 {
-color:var(--color3);
-width: 50%;
-height: 3em;
-border-radius: 1em;
-border: none;
-}
-    
-#cerrar-popup1 {
-margin-top: 2em;
-margin-top: 10px;
-color:var(--color3);
-border: none;
-padding: 10px 20px;
-border-radius: 5px;
-cursor: pointer;
+height: 20em;
+padding-top: 5em;
+padding-bottom: 5em;
+background-color: var(--color2);    
+text-align: center;
 }
 
-    
 /*--FINAL DE LA SECCIÓN BOTÓN--*/
 
 /*--COMIENZO DEL FOOTER--*/
@@ -201,6 +313,132 @@ padding-top: 0.5em;
 padding-bottom: 0.5em;
 }
 
-
-
 /*--FINAL DEL FOOTER--*/
+
+/*-------------FINAL DE PÁGINA QUIENES SOMOS----------------*/
+
+/*-----------------COMIENZO DE PÁGINA AYUDAR----------------*/
+
+/*--COMIENZO DE IMAGEN DE CABEZERA--*/
+
+#contenedor2 {
+width: 100%;
+text-align: center;
+}
+
+#contenedor2 img {
+width: 100%;
+height: 30em;
+}
+
+/*--FINAL DE IMAGEN DE CABEZERA--*/
+
+#imput-form {
+text-align: center;
+}
+
+.text-help {
+justify-content: center;
+margin-top: 1em;
+margin-bottom: 1.5em;
+}
+
+.text-help h1 {
+width: 100%;
+}
+
+.text-help p {
+width: 100%;
+}
+
+#text-info {
+display: flex;
+}
+
+#text-info {
+background-color: var(--color2);
+}
+
+#text-info .transferencia {
+padding-left: 1em;
+padding-right: 0.5em;
+}
+
+#text-info .bizum {
+padding-left: 0.5em;
+padding-right: 1em;
+}
+
+#text-across {
+text-align: center;
+}
+
+.ayuda {
+margin-top: 1em;
+}
+
+.ayuda h2 {
+margin-bottom: 0.5em;
+}
+
+.ayuda h3 {
+    margin-bottom: 0.5em;
+}
+
+.formcomp {
+text-align: center;
+width: 100%;
+}
+
+
+.formcomp .col-md-6 {
+flex: 20%;
+}
+
+
+.formcomp .row {
+justify-content: center ;
+}
+
+.ayuda button {
+margin-bottom: 1em;
+background-color: var(--color1);
+color: var(--colorFondo);
+border-radius: 10%;
+border: none;
+}
+
+.ayuda button:hover {
+color: var(--color1);
+background-color: var(--colorFondo);
+}
+
+.select-one {
+display: flex;
+justify-content: center;
+}
+
+.select-one h4{
+width: 7em;
+height: 5em;
+padding-top: 2em;
+padding-bottom: 2em;
+margin-left: 1em;
+margin-right: 1em;
+background-color: var(--color1);
+color: var(--colorFondo);
+}
+
+.select-one h4:hover{
+color: var(--color1);
+background-color: var(--colorFondo);
+}
+
+.button-dona button{
+background-color: var(--colorFondo);
+
+}
+
+
+
+
