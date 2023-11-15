@@ -361,16 +361,21 @@ display: flex;
 
 #text-info {
 background-color: var(--color2);
+padding: 10vh;
+display: flex;
+text-align: center;
 }
 
 #text-info .transferencia {
 padding-left: 1em;
 padding-right: 0.5em;
+max-width: 40vh;
 }
 
 #text-info .bizum {
 padding-left: 0.5em;
 padding-right: 1em;
+max-width: 40vh;
 }
 
 #text-across {
@@ -443,6 +448,13 @@ background-color: var(--colorFondo);
 
 }
 
+/*
 
+.transferencia {
+    max-width: 40vh;
+}
+.bizum {
+    max-width: 40vh;
+}
 
-
+*/ 
