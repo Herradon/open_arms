@@ -520,7 +520,7 @@ justify-content: center;
     height: 27em;
     }
     
-    #text-mens .info img {
+    #text-mens .info img {  
     border-radius: 2%;
     height: 10em;
     }
@@ -567,7 +567,7 @@ padding-top: 1em;
 background-color: var(--color2);
 height: 20em;
 }
-    
+
 
         
 
@@ -578,8 +578,17 @@ height: 20em;
 
   /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
 
+ #textojunt1 p {
+    font-size: 0.75em;
+ }
 
+ #textojunt2 p {
+    font-size: 0.75em;
+ }
 
+ #textojunt3 p {
+    font-size: 0.75em;
+ }
   /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
 
 
@@ -590,7 +599,7 @@ height: 20em;
 }
   /*-----------------FINAL RESPONSIVE AYUDAR----------------*/
 
-  @media screen and (max-width: 993px) {
+  @media screen and (max-width: 573px) {
     
     /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
     
