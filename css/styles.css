@@ -474,7 +474,7 @@ background-color: var(--colorFondo);
 
 
 
-/*-----------------FINAL DE PÁGINA ESTÁ PASANDO----------------*/
+
 
 #somos {
 text-align: center;
@@ -532,12 +532,20 @@ justify-content: center;
         margin-top: 0.5em;
         margin-bottom: 1em;
         }
+
+        /*-----------------FINAL DE PÁGINA ESTÁ PASANDO----------------*/
     
  /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
- @MEDIA (MIN-WIDTH: 143PX) {
+ @MEDIA (min-width: 993PX) {
  
 
-
+    #text-mens {
+        padding-top: 1em;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        
+        }
 
 
   /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
