@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -44,9 +45,7 @@ background-color: var(--colorFondo);
 height: 4em;
 }
 
-#navbarNavAltMarkup {
-align-items: center;
-}
+
 .container-fluid{
     
 }
@@ -66,11 +65,9 @@ justify-content: right;
 justify-content: center;
 }
 .navbar-nav {
-    text-align: right;
+    text-align: center;
 }
-.navbar-nav a {
-    color: var(--colorFondo);
-}
+
 #texto ul li:nth-child(1) {
 
 width: 3em;
@@ -599,8 +596,15 @@ height: 20em;
  }
   /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
 
-
-
+  #navbarNavAltMarkup {
+    align-items: center;
+    }
+    .navbar-nav {
+        text-align: right;
+    }
+    .navbar-nav a {
+        color: var(--colorFondo);
+    }
   /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
 
 
@@ -774,8 +778,15 @@ height: 20em;
    .btn.btn-primary {
         width: 50%;
     }
-   
-   
+    #navbarNavAltMarkup {
+        align-items: center;
+        }
+        .navbar-nav {
+            text-align: right;
+        }
+        .navbar-nav a {
+            color: var(--colorFondo);
+        }
      /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
    
         
