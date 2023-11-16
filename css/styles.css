@@ -255,15 +255,6 @@ height: 40em;
 border-radius: 2%;
 }
         
-.body {
-padding-right: 1em;
-padding-left: 1em;
-}
-        
-.body h2 {
-margin-bottom: 1em;
-margin-top: 1em;
-}
         
 #contentstyle .info p {
 padding-left: 1em;
@@ -603,25 +594,168 @@ height: 20em;
     
     /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
     
+    .body h2 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+        font-size: 1.5em;
+        }
+        
+        
+        .body p {
+            font-size: 0.75em;
+        }
+        .solotext p {
+            width: 100%;
+            font-size: 0.5em;
+            }
+        
+        .lh-1 {
+            font-size: 0.85em;
+        }
+        .text-sm-end {
+            margin-bottom: 5%;
+        }
+
+        #text-mens {
+            padding-top: 1em;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            
+            }
+            
+            #text-mens .info {
+            background-color: var(--color2); 
+            border-radius: 2%;  
+            width: 82%;
+            height: 27em;
+            }
+            
+            #text-mens .info img {  
+            border-radius: 2%;
+            height: 10em;
+            }
+            #contenedor .img-fluid {
+                margin-top: 32%;
+            }
 
 
 
 
+
+    
      /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
    
      
-   
-   
+     #textojunt1 p {
+        font-size: 0.85em;
+     }
+    
+     #textojunt2 p {
+        font-size: 0.85em;
+     }
+    
+     #textojunt3 p {
+        font-size: 0.85em;
+     }
+     
+     
+     .solotext {
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+     }
+     .imagentext1 {
+        width: 80%;
+     }
+     .imgsomos {
+        text-align: center;
+        justify-content: center;
+     }
+     #textojunt1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+     }
+     #textojunt2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+     }
+     #textojunt3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+     }
+     #conjuntosomos {
+        margin-top: 25%;
+     }
+     #contenedor2 .img-fluid {
+        margin-top: 32%;
+     }
      /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
    
-   
-   
+     #contentstyle {
+        flex-direction: column;
+        padding-top: 1em;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 80%;
+        }
+        
+        #contentstyle .info {
+        background-color: var(--color2); 
+        border-radius: 2%;  
+        width: 82%;
+        height: 27em;
+        }
+        
+        #contentstyle .info img {  
+        border-radius: 2%;
+        height: 10em;
+        }
+        #contentstyle2 {
+            flex-direction: column;
+            padding-top: 1em;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100%;
+            }
+            
+            #contentstyle2 .info {
+            background-color: var(--color2); 
+            border-radius: 2%;  
+            width: 82%;
+            height: 27em;
+            }
+            
+            #contentstyle2 .info img {  
+            border-radius: 2%;
+            height: 10em;
+            }
+            #buttonimg {
+                margin-top: 100%;
+            }
      /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
-   
+   #double-text {
+        
+   }
+   .btn.btn-primary {
+        width: 50%;
+   }
    
    
      /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
    
+        
    
-   }
      /*-----------------FINAL RESPONSIVE AYUDAR----------------*/
+    }
