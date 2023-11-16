@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="js/bootstrap.bundle.js">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     
@@ -15,192 +14,179 @@
     <!--COMIENZO DEL HEADER-->
 <body>
 
-    <header>
+  <header>
 
     <div id="texto">
-
-        <p>Crea tu campaña solidaria para Open Arms</p>
-
-
-        <ul class="nav justify-content-center">
-            
-            <li class="nav-item">
-              <a class="nav-link active"  href="index.html">ESTÁ PASANDO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="quienes_somos.html">QUIENES SOMOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ayudar.html">AYUDAR</a>
-            </li>
-
-        </ul>
+  
+    <p>Crea tu campaña solidaria para Open Arms</p>
+  
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">QUÍENES SOMOS</a>
+            <a class="nav-link" aria-current="page" href="estapasando.html">ESTÁ PASANDO</a>
+            <a class="nav-link" aria-current="page" href="ayudar.html">AYUDAR</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
       
+    
     </div>
-
-    </header>
+  
+  </header>
 
 <!--FINAL DEL HEADER-->
     
-<!--COMIENZO DE IMAGEN DE CABEZERA-->
+<!--COMIENZO DE IMAGEN DE CABECERA-->
 
 
     <div id="contenedor2">
 
-        <img src="https://www.openarms.es/uploads/home/Caja_med.jpg" class="img-fluid" alt="..."> 
+      <img src="https://www.openarms.es/uploads/home/Caja_med.jpg" class="img-fluid" alt="..."> 
+      
+  </div>
 
-    </div>
 
-
-<!--FINAL DE IMÁGEN DE CABEZERA-->
+<!--FINAL DE IMÁGEN DE CABECERA-->
 
 <!--COMIENZO DE FORMULARIO-->
 
-<div id="imput-form">
 
-    <div class="text-help">
+<div id="double-text">
 
-        <h1 class="lh-1">Ayúdanos a seguir con tu donativo</h1>
+  <div class="aportación" style="width: 29%;">
 
-        <p class="lh-1">Tu aportación vale más de lo que imaginas.
-            Ayudarás a poner a salvo otra vida en el mar o en tierra.</p> 
+      <h2 class="lh-1">Tu aportación vale más de lo que imaginas.</h2>
+        <p class="lh-1">Ayudarás a poner a salvo otra vida en el mar o en tierra.</p>
 
-            <p class="lh-1">Sigue los siguientes pasos para hacer un donativo.
-                Podrás hacerlo a través de tarjeta bancaria, Paypal, transferencia bancaria
-                o recibo domiciliado y obtener beneficios fiscales.</p> 
+  </div>
 
-    </div>
+  <div class="pasos" style="width: 29%;">
 
-    <div id="text-across">
-
-        <div class="ayuda">
-
-            <h2 class="lh-1">Quiero ayudar con mi aportación.</h2>
-
-            <h3 class="lh-1">Registrate y elige cuanto quieres donar.</h3>
-
-            <div class="formcomp">
-
-                <form class="row g-3">
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Nombre de usuario</label>
-                        <input type="text" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Número de contacto</label>
-                        <input type="tel" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Edad</label>
-                        <input type="number" class="form-control" id="inputPassword4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">cantidad a donar</label>
-                        <div class="input-group mb-3">
-                        <input type="number" class="form-control" id="inputPassword4">
-                        <span class="input-group-text">€</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">¿Cómo quieres ayudar?</label>
-                        <select class="form-select" aria-label="Default select example">
-                          <option selected>Una sola vez</option>
-                          <option value="1">De forma mensual</option>
-                          <option value="2">De forma semanal</option>
-                        </select>
-                        
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Donar</button>
-                        
-                    </div>
-                </form>
-        <!--
-<div id="paso1">
-    <label for="basic-url" class="form-label">¿Quien eres?</label>
-    <div class="input-group mb-3">
-      
-      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
-    </div>
+      <h2 class="lh-1">Sigue los siguientes pasos para hacer un donativo.</h2>
+        <p>Podrás hacerlo a través de tarjeta bancaria, Paypal, transferencia bancaria
+        o recibo domiciliado y obtener beneficios fiscales.</p>
     
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellidos" aria-describedby="basic-addon2">
-    </div>
-  </div>
-  <button type="button" class="btn btn-secondary">Siguiente ></button>
-  <div id="paso2">  
-    <label for="basic-url" class="form-label">¿Cuantos años tienes?</label>
-    <div class="input-group mb-3">
-      
-      <input type="text" class="form-control" placeholder="Edad" aria-label="Edad" aria-describedby="basic-addon1">
-    </div>
-  </div>
-  <button type="button" class="btn btn-secondary">Siguiente ></button>
-  <div id="paso3"> 
-    <label for="basic-url" class="form-label">¿Donde vives?</label>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Calle y Número" aria-label="Calle y Número">
-      <input type="text" class="form-control" placeholder="Piso" aria-label="Piso">
-    </div>
-    <button type="button" class="btn btn-secondary">Siguiente ></button>
-  </div>
-  <div id="paso4">
-      <label for="basic-url" class="form-label">¿Cómo quieres ayudar?</label>
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Donar</option>
-        <option value="1">Ser voluntario</option>
-      </select>
-      <button type="button" class="btn btn-secondary">Siguiente ></button>
-  </div>
-  <div id="paso5">
-    <div class="input-group mb-3">
-      <span class="input-group-text">Donar:</span>
-      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-      <span class="input-group-text">€</span>
-    </div>
-    <button type="button" class="btn btn-secondary">Finalizar</button>
+
   </div>
 
-        -->
-            
+</div>
 
-     
 
+        <div id="text-across">
+
+            <div class="ayuda">
+
+                <h2 class="lh-1">Quiero ayudar con mi aportación.</h2>
+
+                <h3 class="lh-1">Registrate y elige cuanto quieres donar.</h3>
+
+                <div class="formcomp">
+
+                    <form class="row g-6" style="width: 50%;">
+                      
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Número de contacto</label>
+                            <input type="tel" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Edad</label>
+                            <input type="number" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">cantidad a donar</label>
+                            <div class="input-group mb-3">
+                            <input type="number" class="form-control" id="inputPassword4">
+                            <span class="input-group-text">€</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">¿Cómo quieres ayudar?</label>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Una sola vez</option>
+                              <option value="1">De forma mensual</option>
+                              <option value="2">De forma semanal</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmación de registro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Registro realizado. A continuación, una vez realizado el bizum o  la transferencia podremos realizar los pagos a esta cuenta tal y como se han aplicado la selección.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
-
-    <div id="text-info">
-
-        <div class="transferencia">
-
-            <h1 class="lh-1">Transferencia</h1>
-
-            <p class="lh-1">Si prefieres hacer una transferencia bancaria, la puedes hacer en este número de cuenta:</p>
-
-            <p class="lh-1">ES37 1491 0001 2930 0007 6060</p>
-
-            <p class="lh-1">*Para poder recibir tu certificado de donación, envía un mail a atenciondonante@openarms.es con tu nombre completo, DNI y comprobante de la transferencia.</p>
+  </div>
+</div>
+  </form>
+                  
+                    
 
         </div>
 
-        <div class="bizum">
+        <div id="text-info">
 
-            <h1 class="lh-1">Bizum</h1>
+            <div class="transferencia" style="width: 29%;">
 
-            <p class="lh-1">Puedes realizar tu donativo por Bizum con el siguiente código:</p>
-            
-            <p class="lh-1">11230</p>
+                <h1 class="lh-1">Transferencia</h1>
 
-            <p class="lh-1">*Recuerda que no es posible emitir certificados de donación sobre los donativos hechos a través de Bizum.</p>
+                <p class="lh-1">Si prefieres hacer una transferencia bancaria, la puedes hacer en este número de cuenta:</p>
+
+                <p class="lh-1">ES37 1491 0001 2930 0007 6060</p>
+
+                <p class="lh-1">*Para poder recibir tu certificado de donación, envía un mail a atenciondonante@openarms.es con tu nombre completo, DNI y comprobante de la transferencia.</p>
+
+            </div>
+
+            <div class="bizum" style="width: 29%;">
+
+                <h1 class="lh-1">Bizum</h1>
+
+                <p class="lh-1">Puedes realizar tu donativo por Bizum con el siguiente código:</p>
+                
+                <p class="lh-1">11230</p>
+
+                <p class="lh-1">*Recuerda que no es posible emitir certificados de donación sobre los donativos hechos a través de Bizum.</p>
+
+            </div>
 
         </div>
+
+      </div>
 
     </div>
 
@@ -220,6 +206,8 @@
     <p class="text-sm-end">f Facebook   t Twitter   i Instagram   Tiktok TikTok</p>
 
 <!--FINAL DEL FOOTER-->
+
+<script src="js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

@@ -39,13 +39,37 @@ text-align: center;
 color: var(--color1);
 }
 
-#texto ul {
+.havbar {
+background-color: var(--colorFondo);
+}
+
+.container-fluid {
 width: 100%;
-height: 4em;
-align-content: center;
+height: 5em;
 background-color: var(--colorFondo);
 justify-content: space-around;
 }
+
+#texto ul li:nth-child(1) {
+
+width: 3em;
+margin-right: 2em;
+position: relative;
+}
+
+#texto ul li img {
+    width:3em;
+    justify-content: end;
+   
+}
+
+#texto ul li img:hover {
+    width:4em;
+    justify-content: end;
+    
+}
+
+
 
 
 
@@ -176,6 +200,7 @@ align-items: center;
 #contentstyle .info {
 background-color: var(--color2); 
 border-radius: 2%;  
+width: 29%;
 height: 40em;
 }
 
@@ -201,41 +226,44 @@ margin-top: 1em;
     margin-bottom: 1em;
     }
 
-#contentsecond {
+#contentstyle2 {
+padding-top: 2em;
 display: flex;
 width: 100%;
-height: 60em;
+height: 50em;
 justify-content: space-around;
 align-items: center;    
 }
-
-#contentsecond .info img {
-    border-radius: 2%;
+        
+#contentstyle2 .info {
+background-color: var(--color2); 
+border-radius: 2%;  
+width: 29%;
+height: 40em;
 }
-
-#contentsecond .info {
-background-color: var(--color2);
-border-radius: 2%; 
-height: 40em;    
+        
+#contentstyle2 .info img {
+border-radius: 2%;
 }
-
-#contentsecond .info h2 {
-padding-left: 0.5em;
-width: 12em;
-margin-top: 0.5em;
-margin-bottom: 1em;
-}
-    
-#contentsecond .info p {
+        
+.body {
+padding-right: 1em;
 padding-left: 1em;
+}
+        
+.body h2 {
+margin-bottom: 1em;
+margin-top: 1em;
+}
+        
+#contentstyle .info p {
+padding-left: 1em;
+padding-right: 1em;
 width: 20em;
 margin-top: 0.5em;
 margin-bottom: 1em;
 }
-
-
-
-    
+  
 /*--FINAL CARD SOMOS--*/
 
 
@@ -323,56 +351,48 @@ padding-bottom: 0.5em;
 /*--COMIENZO DE IMAGEN DE CABEZERA--*/
 
 #contenedor2 {
-width: 100%;
-text-align: center;
-}
-
-#contenedor2 img {
-width: 100%;
-height: 30em;
-}
+    width: 100%;
+    text-align: center;
+    }
+    
+    #contenedor2 img {
+    width: 100%;
+    height: 100%;
+    
+    }
 
 /*--FINAL DE IMAGEN DE CABEZERA--*/
 
-#imput-form {
-text-align: center;
-}
-
-.text-help {
-justify-content: center;
-margin-top: 1em;
-margin-bottom: 1.5em;
-}
-
-.text-help h1 {
-width: 100%;
-}
-
-.text-help p {
-width: 100%;
-}
-
-#text-info {
-display: flex;
-}
-
-#text-info {
+#double-text {
+padding-top: 1%;
+padding-bottom: 1%;
 background-color: var(--color2);
-padding: 10vh;
 display: flex;
-text-align: center;
+justify-content: center;
 }
 
-#text-info .transferencia {
-padding-left: 1em;
-padding-right: 0.5em;
-max-width: 40vh;
+.aportación {
+padding: 1em;
 }
 
-#text-info .bizum {
-padding-left: 0.5em;
-padding-right: 1em;
-max-width: 40vh;
+.pasos {
+padding: 1em;
+}
+
+.transferencia {
+padding: 1em;
+}
+.bizum {
+padding: 1em;
+}
+
+
+#text-info {
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: var(--color2);
+display: flex;
+justify-content: center;
 }
 
 #text-across {
@@ -392,27 +412,31 @@ margin-bottom: 0.5em;
 }
 
 .formcomp {
-text-align: center;
-width: 100%;
+margin-top: 2em;
+margin-bottom: 2em;
+text-align: left;
+display: flex;
+justify-content: center;
 }
 
-
-.formcomp .col-md-6 {
-width: 60%;
+.formcomp .row{
+align-items: center;
+justify-content: center;
 }
 
-
-.formcomp .row {
-justify-content: center ;
+.formcomp .row .col-md-6 {
+padding: 1em;
 }
 
 .ayuda button {
-margin-bottom: 1em;
+text-align: left;
+width: 20%;
 background-color: var(--color1);
 color: var(--colorFondo);
 border-radius: 10%;
 border: none;
 }
+
 
 .ayuda button:hover {
 color: var(--color1);
@@ -445,13 +469,141 @@ background-color: var(--colorFondo);
 
 }
 
-/*
+/*-----------------FINAL DE PÁGINA AYUDAR----------------*/
 
-.transferencia {
-    max-width: 40vh;
-}
-.bizum {
-    max-width: 40vh;
+/*-----------------COMIENZO DE PÁGINA ESTÁ PASANDO----------------*/
+
+
+
+
+
+#somos {
+text-align: center;
+padding-top: 1em;
+background-color: var(--color2);
+height: 13em;
 }
 
-*/ 
+#somos h1 {
+color: var(--colorFondo);
+}
+
+.doble-info{ 
+display: flex; 
+text-align: center;
+justify-content: center;
+}
+
+
+#text-mens {
+    padding-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    
+    #text-mens .info {
+    background-color: var(--color2); 
+    border-radius: 2%;  
+    width: 40%;
+    height: 27em;
+    }
+    
+    #text-mens .info img {
+    border-radius: 2%;
+    height: 10em;
+    }
+    
+    .body {
+    padding-right: 1em;
+    padding-left: 1em;
+    }
+    
+    .body h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    }
+    
+    #text-mens .info p {
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 20em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        }
+
+        /*-----------------FINAL DE PÁGINA ESTÁ PASANDO----------------*/
+
+@media screen and (max-width: 993px) {
+    
+ /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
+ 
+ 
+    
+
+#text-mens {
+padding-top: 1em;
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+}
+
+#somos {
+text-align: center;
+padding-top: 1em;
+background-color: var(--color2);
+height: 20em;
+}
+
+
+        
+
+  /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+
+  
+
+
+  /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
+
+
+
+  /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+
+
+
+  /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
+
+
+}
+  /*-----------------FINAL RESPONSIVE AYUDAR----------------*/
+
+  @media screen and (max-width: 993px) {
+    
+    /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
+    
+
+
+
+
+     /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+   
+     
+   
+   
+     /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
+   
+   
+   
+     /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+   
+   
+   
+     /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
+   
+   
+   }
+     /*-----------------FINAL RESPONSIVE AYUDAR----------------*/
