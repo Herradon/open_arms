@@ -331,14 +331,15 @@ padding-bottom: 0.5em;
 /*--COMIENZO DE IMAGEN DE CABEZERA--*/
 
 #contenedor2 {
-width: 100%;
-text-align: center;
-}
-
-#contenedor2 img {
-width: 100%;
-height: 30em;
-}
+    width: 100%;
+    text-align: center;
+    }
+    
+    #contenedor2 img {
+    width: 100%;
+    height: 100%;
+    
+    }
 
 /*--FINAL DE IMAGEN DE CABEZERA--*/
 
@@ -400,11 +401,11 @@ justify-content: center;
 
 .formcomp .row{
 align-items: center;
+justify-content: center;
 }
 
-
-.formcomp .row {
-justify-content: center;
+.formcomp .row .col-md-6 {
+padding: 1em;
 }
 
 .ayuda button {
