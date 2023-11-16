@@ -206,7 +206,7 @@ display: flex;
 width: 100%;
 height: 60em;
 justify-content: space-around;
-align-items: center;
+align-items: center;    
 }
 
 #contentsecond .info img {
