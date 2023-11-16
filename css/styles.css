@@ -176,6 +176,7 @@ align-items: center;
 #contentstyle .info {
 background-color: var(--color2); 
 border-radius: 2%;  
+width: 29%;
 height: 40em;
 }
 
@@ -201,37 +202,44 @@ margin-top: 1em;
     margin-bottom: 1em;
     }
 
-#contentsecond {
+#contentstyle2 {
+padding-top: 2em;
 display: flex;
 width: 100%;
-height: 60em;
+height: 50em;
 justify-content: space-around;
 align-items: center;
 }
-
-#contentsecond .info img {
-    border-radius: 2%;
+        
+#contentstyle2 .info {
+background-color: var(--color2); 
+border-radius: 2%;  
+width: 29%;
+height: 40em;
 }
-
-#contentsecond .info {
-background-color: var(--color2);
-border-radius: 2%; 
-height: 40em;    
+        
+#contentstyle2 .info img {
+border-radius: 2%;
 }
-
-#contentsecond .info h2 {
-padding-left: 0.5em;
-width: 12em;
-margin-top: 0.5em;
-margin-bottom: 1em;
-}
-    
-#contentsecond .info p {
+        
+.body {
+padding-right: 1em;
 padding-left: 1em;
+}
+        
+.body h2 {
+margin-bottom: 1em;
+margin-top: 1em;
+}
+        
+#contentstyle .info p {
+padding-left: 1em;
+padding-right: 1em;
 width: 20em;
 margin-top: 0.5em;
 margin-bottom: 1em;
 }
+
 
 
 
@@ -382,17 +390,18 @@ margin-bottom: 0.5em;
 
 .formcomp {
 text-align: center;
-width: 100%;
+background-color: antiquewhite;
+justify-content: center;
 }
 
-
-.formcomp .col-md-6 {
-width: 60%;
+.formcomp .row{
+background-color: aqua;
+justify-content: center;
 }
 
 
 .formcomp .row {
-justify-content: center ;
+justify-content: center;
 }
 
 .ayuda button {
