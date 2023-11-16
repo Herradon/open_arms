@@ -394,7 +394,7 @@ margin-bottom: 0.5em;
 .formcomp {
 margin-top: 2em;
 margin-bottom: 2em;
-text-align: center;
+text-align: left;
 display: flex;
 justify-content: center;
 }
@@ -409,12 +409,14 @@ padding: 1em;
 }
 
 .ayuda button {
-margin-bottom: 1em;
+text-align: left;
+width: 20%;
 background-color: var(--color1);
 color: var(--colorFondo);
 border-radius: 10%;
 border: none;
 }
+
 
 .ayuda button:hover {
 color: var(--color1);
