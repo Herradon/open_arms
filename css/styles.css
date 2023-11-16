@@ -533,4 +533,28 @@ justify-content: center;
         margin-bottom: 1em;
         }
     
-    
+ /*-----------------COMIENZO RESPONSIVE QUIENES SOMOS----------------*/
+ @MEDIA (MIN-WIDTH: 143PX) {
+ 
+
+
+
+
+  /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+
+  
+
+
+  /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
+
+
+
+  /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
+
+
+
+  /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
+
+
+}
+  /*-----------------FINAL RESPONSIVE AYUDAR----------------*/
