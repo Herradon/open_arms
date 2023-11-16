@@ -342,27 +342,29 @@ height: 30em;
 
 /*--FINAL DE IMAGEN DE CABEZERA--*/
 
-#imput-form {
-text-align: center;
-}
-
-.text-help {
-justify-content: center;
-margin-top: 1em;
-margin-bottom: 1.5em;
-}
-
-.text-help h1 {
-width: 100%;
-}
-
-.text-help p {
-width: 100%;
-}
-
-#text-info {
+#double-text {
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: var(--color2);
 display: flex;
+justify-content: center;
 }
+
+.aportación {
+padding: 1em;
+}
+
+.pasos {
+padding: 1em;
+}
+
+.transferencia {
+padding: 1em;
+}
+.bizum {
+padding: 1em;
+}
+
 
 #text-info {
 padding-top: 1%;
@@ -389,14 +391,15 @@ margin-bottom: 0.5em;
 }
 
 .formcomp {
+margin-top: 2em;
+margin-bottom: 2em;
 text-align: center;
-background-color: antiquewhite;
+display: flex;
 justify-content: center;
 }
 
 .formcomp .row{
-background-color: aqua;
-justify-content: center;
+align-items: center;
 }
 
 
@@ -442,14 +445,3 @@ background-color: var(--colorFondo);
 background-color: var(--colorFondo);
 
 }
-
-/*
-
-.transferencia {
-    max-width: 40vh;
-}
-.bizum {
-    max-width: 40vh;
-}
-
-*/ 
