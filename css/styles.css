@@ -239,11 +239,7 @@ width: 20em;
 margin-top: 0.5em;
 margin-bottom: 1em;
 }
-
-
-
-
-    
+  
 /*--FINAL CARD SOMOS--*/
 
 
@@ -448,3 +444,70 @@ background-color: var(--colorFondo);
 background-color: var(--colorFondo);
 
 }
+
+/*-----------------FINAL DE PÁGINA AYUDAR----------------*/
+
+/*-----------------COMIENZO DE PÁGINA ESTÁ PASANDO----------------*/
+
+
+
+/*-----------------FINAL DE PÁGINA ESTÁ PASANDO----------------*/
+
+#somos {
+text-align: center;
+padding-top: 1em;
+background-color: var(--color2);
+height: 13em;
+}
+
+#somos h1 {
+color: var(--colorFondo);
+}
+
+.doble-info{ 
+display: flex; 
+text-align: center;
+justify-content: center;
+}
+
+
+#text-mens {
+    padding-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    
+    #text-mens .info {
+    background-color: var(--color2); 
+    border-radius: 2%;  
+    width: 40%;
+    height: 27em;
+    }
+    
+    #text-mens .info img {
+    border-radius: 2%;
+    height: 10em;
+    }
+    
+    .body {
+    padding-right: 1em;
+    padding-left: 1em;
+    }
+    
+    .body h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    }
+    
+    #text-mens .info p {
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 20em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        }
+    
+    
