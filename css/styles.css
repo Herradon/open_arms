@@ -39,21 +39,6 @@ text-align: center;
 color: var(--color1);
 }
 
-.img-logo {
-width: 6%;
-position: absolute;
-margin-left: 3em;
-}
-
-.img-logo img {
-
-width: 5em;
-}
-
-.img-logo img:hover {
-width: 8em;
-transition: ;
-}
 
 
 #texto ul {
@@ -64,10 +49,26 @@ background-color: var(--colorFondo);
 justify-content: space-around;
 }
 
-#texto ul img:hover {
-    width: 10%;
+#texto ul li:nth-child(1) {
+
+width: 3em;
+margin-right: 2em;
+position: relative;
+}
+
+#texto ul li img {
+    width:3em;
     justify-content: end;
-    }
+   
+}
+
+#texto ul li img:hover {
+    width:4em;
+    justify-content: end;
+    
+}
+
+
 
 
 
