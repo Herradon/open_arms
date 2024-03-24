@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -44,19 +45,27 @@ background-color: var(--colorFondo);
 height: 4em;
 }
 
-#navbarNavAltMarkup {
-align-items: center;
-}
 
+.container-fluid{
+    
+}
+    
+.navbar.navbar-expand-lg {
+   
+}
 .container-fluid {
 width: 100%;
 height: 5em;
 background-color: var(--colorFondo);
 justify-content: space-around;
+justify-content: right;
 }
 
 .nav-link {
 justify-content: center;
+}
+.navbar-nav {
+    text-align: center;
 }
 
 #texto ul li:nth-child(1) {
@@ -371,8 +380,12 @@ display: flex;
 justify-content: center;
 }
 
-.aportación {
+.aportación,
+.pasos,
+.transferencia,
+.bizum {
 padding: 1em;
+width: 29%;
 }
 
 .pasos {
@@ -397,6 +410,7 @@ justify-content: center;
 
 #text-across {
 text-align: center;
+margin-top: 20%;
 }
 
 .ayuda {
@@ -582,8 +596,15 @@ height: 20em;
  }
   /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
 
-
-
+  #navbarNavAltMarkup {
+    align-items: center;
+    }
+    .navbar-nav {
+        text-align: right;
+    }
+    .navbar-nav a {
+        color: var(--colorFondo);
+    }
   /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
 
 
@@ -637,11 +658,13 @@ height: 20em;
             height: 10em;
             }
             #contenedor .img-fluid {
-                margin-top: 32%;
+                margin-top: 120px;
             }
 
-
-
+       .aportación,
+       .pasos {
+        width: 50%;
+       }
 
 
     
@@ -695,7 +718,7 @@ height: 20em;
         margin-top: 25%;
      }
      #contenedor2 .img-fluid {
-        margin-top: 32%;
+        margin-top: 120px;
      }
      /*-----------------COMIENZO RESPONSIVE ESTÁ PASANDO----------------*/
    
@@ -742,17 +765,28 @@ height: 20em;
             height: 10em;
             }
             #buttonimg {
-                margin-top: 100%;
+                margin-top: 80%;
             }
      /*-----------------FINAL RESPONSIVE QUIENES SOMOS----------------*/
-   #double-text {
-        
-   }
+     .aportación,
+     .pasos,
+     .transferencia,
+     .bizum {
+     padding: 1em;
+     width: 70%;
+     }
    .btn.btn-primary {
         width: 50%;
-   }
-   
-   
+    }
+    #navbarNavAltMarkup {
+        align-items: center;
+        }
+        .navbar-nav {
+            text-align: right;
+        }
+        .navbar-nav a {
+            color: var(--colorFondo);
+        }
      /*-----------------COMIENZO RESPONSIVE AYUDAR----------------*/
    
         
